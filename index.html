@@ -29,8 +29,8 @@
 			x += dx;
 			y += dy;
 			if(x == canvas.width){
-				x *= Math.cos(x);
-				y *= Math.sin(y);
+				x = canvas.width/2;
+				y = canvas.height-30;
 			}
 		}
 		setInterval(draw, 10);
