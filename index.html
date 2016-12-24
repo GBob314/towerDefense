@@ -28,6 +28,9 @@
 			ctx.closePath();
 			x += dx;
 			y += dy;
+			if(x == canvas.width){
+				x *= Math.cos(x);
+			}
 		}
 		setInterval(draw, 10);
 		
