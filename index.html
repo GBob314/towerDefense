@@ -30,6 +30,7 @@
 			y += dy;
 			if(x == canvas.width){
 				x *= Math.cos(x);
+				y *= Math.sin(y);
 			}
 		}
 		setInterval(draw, 10);
