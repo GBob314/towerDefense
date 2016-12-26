@@ -28,10 +28,10 @@
 			ctx.closePath();
 			x += dx;
 			y += dy;
-			if(x == canvas.width || x == 0){
+			if(x == (canvas.width - 50) || x == 0){
 				dx *= -1;
 			}
-			if(y == canvas.height || y == 0){
+			if(y == (canvas.height - 50) || y == 0){
 				dy *= -1;
 			}
 		}
