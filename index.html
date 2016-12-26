@@ -29,7 +29,9 @@
 			x += dx;
 			y += dy;
 			if(x == canvas.width){
-								dx *= -1;
+				dx *= -1;
+			}
+			if(y == canvas.height){
 				dy *= -1;
 			}
 		}
